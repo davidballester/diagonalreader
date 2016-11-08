@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Diagonal reader</title>
+  <script src="3dparty/handlebars-v4.0.5.js"></script>
+
+  <!-- Here the magic is done -->
+  <script src="popup_files/popup.js"></script>
+  <link rel="stylesheet" href="popup_files/popup.css">
+</head>
+<body>
+  <h1>Summary</h1>
+
+  <!-- By default this is displayed, as we are processing in the background. -->
+  <p id="wait">Please, wait&hellip;</p>
+
+  <!-- In case we can't find any bold text to display, we'll show this sad message. -->
+  <p id="no-results" style="display: none;">No bold text to extract : (</p>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+  width: 800px;
+  overflow-x: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  width: 750px;
+}
+
+li {
+  margin: 0;
+  padding: 0.5em 0;
+  list-style: none;
+  font-size: 14px;
+  cursor: default;
+}
+
+li:nth-child(even) {
+  background-color: #f0f0f0;
+}

@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Diagonal reader",
+  "description": "This will take all the bold text of the current page to make a quick summary for you.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ]
+}
